@@ -1,0 +1,96 @@
+/* Шапка */
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+}
+
+.header__logo {
+  grid-column: 1/3;
+  padding: 35px 0px 30px;
+}
+
+.header__logo-image {
+  width: 180px;
+}
+
+.header__offer {
+  grid-column: 8/11;
+  text-align: end;
+}
+
+.header__consult {
+  grid-column: 11/-1;
+  text-align: end;
+}
+
+.header__menu {
+  grid-column: 1/-1;
+  grid-row: 2/3;
+  border-top: 1px solid #888;
+  padding-top: 16px;
+}
+
+.header__links-list-item:last-child {
+  margin-left: 27px;
+  text-transform: uppercase;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 44.5px;
+  font-size: 16px;
+  line-height: 120%;
+  list-style: none;
+}
+
+.header__link {
+  text-decoration: none;
+}
+
+.header__link-image {
+  width: 16px;
+  margin-right: 5px;
+}
+
+/* Основной контент */
+/* Секция cover */
+
+.hero {
+  display: grid;
+  padding: 80px 0px;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.hero__title {
+  grid-column: 1/7;
+  line-height: 120%;
+  font-size: 60px;
+}
+
+.hero__text {
+  grid-column: 7/11;
+  padding: 22px 0px 24px 10px;
+  line-height: 120%;
+  font-size: 16px;
+}
+
+.hero__image {
+  padding-top: 32px;
+  grid-column: 1/-1;
+}
+
+/* Модификаторы */
+.text_small {
+  font-size: 14px;
+}
+
+.text_medium {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.color_accent {
+  color: #607ce6;
+}
