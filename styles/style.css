@@ -163,7 +163,54 @@
   text-decoration: none;
 }
 
+/* Секция map */
+
+.map {
+  padding: 80px 0px;
+}
+
+/* Секция news */
+.news__card-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card-news {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card-news__image {
+  width: 380px;
+}
+
+.card-news__description {
+  padding: 16px 16px 24px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-news__text {
+ font-size: 20px;
+ line-height: 140%;
+ padding-bottom: 80px;
+}
+
+.card-news__link {
+font-size: 16px;
+text-decoration: none;
+}
+
+.card-news__data {
+font-size: 16px;
+color: gray;
+}
+
 /* Модификаторы */
+
 .text_small {
   font-size: 14px;
 }
