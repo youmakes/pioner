@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
+    <!-- Шапка -->
+
     <header class="header">
       <a class="header__logo">
         <img
@@ -66,7 +68,11 @@
       </nav>
     </header>
 
+    <!-- Основной контент -->
+
     <main class="main">
+      <!-- Секция hero -->
+
       <section class="hero">
         <h1 class="hero__title">Российский завод силовых машин</h1>
         <p class="hero__text">
@@ -76,8 +82,10 @@
         <img src="./images/hero-image.jpg" class="hero__image" />
       </section>
 
+      <!-- Секция about -->
+
       <section class="about">
-        <h2 class="about__title">О предприятии</h2>
+        <h2 class="title">О предприятии</h2>
         <p class="about__text">
           За 20 лет развития в структуре завода сформирован мощный
           производственный потенциал, научно-технический центр, испытательная
@@ -97,10 +105,102 @@
           серийных и разработке новых приборов, призванные в наибольшей степени
           удовлетворять возрастающие требования наших заказчиков.
         </p>
-        <img src="./images/aurelien-romain-DB_q6rPFnBM-unsplash 1.jpg" alt="" class="about__image" />
-        <img src="./images/carlos-aranda-QMjCzOGeglA-unsplash 1.jpg" alt="" class="about__image" />
+        <img
+          src="./images/aurelien-romain-DB_q6rPFnBM-unsplash 1.jpg"
+          alt=""
+          class="about__image"
+        />
+        <img
+          src="./images/carlos-aranda-QMjCzOGeglA-unsplash 1.jpg"
+          alt=""
+          class="about__image"
+        />
       </section>
-      
+
+      <!-- Секция products -->
+
+      <section class="products">
+        <h2 class="title">Продукция</h2>
+        <ul class="products__card-list">
+          <li class="products__card-list-item">
+            <article class="card">
+              <img
+                src="./images/card-image-one.png"
+                alt="Сигнализатор уровня"
+                class="card__image"
+              />
+              <div class="card__description">
+                <h3 class="card__title">Сигнализатор уровня</h3>
+                <a href="#" class="card__link color_accent">Подробнее ></a>
+              </div>
+            </article>
+          </li>
+          <li class="products__card-list-item">
+            <article class="card">
+              <img
+                src="./images/card-image-two.png"
+                alt="Датчик давления"
+                class="card__image"
+              />
+              <div class="card__description">
+                <h3 class="card__title">Датчики давления</h3>
+                <a href="#" class="card__link color_accent">Подробнее ></a>
+              </div>
+            </article>
+          </li>
+          <li class="products__card-list-item">
+            <article class="card">
+              <img
+                src="./images/card-image-three.png"
+                alt="Пид-регуляторы"
+                class="card__image"
+              />
+              <div class="card__description">
+              <h3 class="card__title">ПИД-регуляторы</h3>
+              <a href="#" class="card__link color_accent">Подробнее ></a>
+              </div>
+            </article>
+          </li>
+          <li class="products__card-list-item">
+            <article class="card">
+              <img
+                src="./images/card-image-four.png"
+                alt="Калибратор давления"
+                class="card__image"
+              />
+              <div class="card__description special">
+              <h3 class="card__title">Калибратор давления</h3>
+              <a href="#" class="card__link color_accent">Подробнее ></a>
+            </div>
+            </article>
+          </li>
+          <li class="products__card-list-item">
+            <article class="card">
+              <img
+                src="./images/card-image-five.png"
+                alt="Корректор расхода газа"
+                class="card__image"
+              />
+              <div class="card__description">
+              <h3 class="card__title">Корректор расхода газа</h3>
+              <a href="#" class="card__link color_accent">Подробнее ></a>
+                </div>
+            </article>
+          </li>
+          <li class="products__card-list-item">
+            <article class="card">
+              <img
+                src="./images/card-image-six.png"
+                alt="Манометры"
+                class="card__image"
+              />
+              <div class="card__description">
+              <h3 class="card__title">Манометры</h3>
+              <a href="#" class="card__link color_accent">Подробнее ></a>
+              </div>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <footer class="footer"></footer>
