@@ -1,3 +1,7 @@
+.inner {
+  padding: 0px 130px;
+}
+
 /* Шапка */
 
 .header {
@@ -108,7 +112,7 @@
 .about__text:nth-child(4) {
   grid-column: 1/7;
   grid-row: 3/4;
-  padding: 24px 0px 32px;
+  padding: 15px 0px 32px;
 }
 
 .about__image {
@@ -170,11 +174,14 @@
 }
 
 /* Секция news */
+.news {
+  margin-bottom: 76px;
+}
 
 .news__card-list {
   display: grid;
-  gap: 20px;
   grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
   list-style: none;
 }
 
@@ -186,7 +193,6 @@
 
 .card-news__image {
   width: 380px;
-
 }
 
 .card-news__description {
@@ -209,7 +215,7 @@
   text-decoration: none;
 }
 
-.card-news__data {
+.card-news__date {
   place-self: flex-end;
   color: gray;
   font-size: 16px;
@@ -217,7 +223,52 @@
 
 /* Подвал */
 
+.footer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  padding: 56px 130px 24px;
+  color: #fff;
+  background-color: #333;
+  line-height: 120%;
+}
 
+.footer__logo {
+  width: 180px;
+}
+
+.footer__menu {
+  grid-column: 4/-1;
+  padding-bottom: 28px;
+}
+
+.footer__menu-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+
+  list-style: none;
+}
+
+.footer__menu-list-item {
+  margin-bottom: 24px;
+}
+
+.footer__menu-list-item:nth-child(9) {
+  margin-bottom: 0px;
+}
+
+.footer__menu-list-item:nth-child(10) {
+  grid-column: 1/4;
+}
+
+.menu__link {
+  text-decoration: none;
+}
+.footer__copy {
+  grid-column: 1/-1;
+  text-align: center;
+}
 
 /* Модификаторы */
 
