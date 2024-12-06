@@ -89,7 +89,7 @@
 
 .about {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   column-gap: 20px;
   padding: 0px 0px 73px;
 }
@@ -101,27 +101,27 @@
 }
 
 .about__text {
-  grid-column: 1/7;
+  grid-column: 1/2;
   grid-row: 2/3;
 }
 
 .about__text:nth-child(3) {
-  grid-column: 7/-1;
+  grid-column: 2/-1;
 }
 
 .about__text:nth-child(4) {
-  grid-column: 1/7;
+  grid-column: 1/2;
   grid-row: 3/4;
   padding: 15px 0px 32px;
 }
 
 .about__image {
-  grid-column: 1/7;
+  grid-column: 1/2;
   grid-row: 4/5;
 }
 
 .about__image:last-child {
-  grid-column: 7/-1;
+  grid-column: 2/-1;
   grid-row: 4/5;
 }
 
